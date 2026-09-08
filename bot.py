@@ -215,7 +215,7 @@ async def process_xl_esim(chat_id, status_callback):
                 raise Exception("Tombol Lanjut belum aktif")
 
             except Exception as e:
-               logger.error(f"Gagal klik Lanjut: {e}")
+                logger.error(f"Gagal klik Lanjut: {e}")
                 await page.screenshot(path=debug_path, full_page=True)
                 raise
 
