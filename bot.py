@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 TOKEN = "8830432689:AAHVW7theMMnrJS_jrcMDGF4iH5gE2oai8w"
 GROUP_ID = -1003971893833
-CHANNEL_USERNAME = "@forarieyproject" 
-ADMIN_ID = 1564275538
+CHANNEL_USERNAME = "@sfnwr" 
+ADMIN_ID = 5540619571
 
 app = FastAPI()
 telegram_app = None
